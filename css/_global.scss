@@ -1,0 +1,28 @@
+html {
+    font-size:62.5%;
+    box-sizing: border-box;
+}
+
+*, *::after ,*::before{
+    box-sizing: inherit;
+}
+
+body, body * {
+    font-family: 'Teko', sans-serif;
+    line-height: 1.2;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+
+$h1:calc(3rem + 2vw);
+$h3: calc(1.6rem + 1vw);
+$bodytext-fs: calc(1.6rem + .4vw); 
+
+
+$c-bg: #131A37;
+$c-header: #819CE3;
+$c-footer: #758DD5; 
+$c-btn-purple: #6C63FF;
+

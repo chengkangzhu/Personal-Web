@@ -1,27 +1,24 @@
+$(document).ready(function () {
+  // everytime the orientation of the device is changed the web would reload,
+  window.onorientationchange = function () {
+    window.location.reload();
+  };
 
-$(document).ready(function(){
+  //show navbar
 
-// everytime the orientation of the device is changed the web would reload,
-window.onorientationchange = function(){
-    window.location.reload()
-}
+  $(".menu").click(function () {
+    $(".mobile-sidebar").css("display", "flex");
+  });
 
-//show navbar
+  //hidenavba
 
-$(".menu").click(function(){
-    $(".mobile-sidebar").css('display',"flex");
+  $(".close-icon").click(function () {
+    $(".mobile-sidebar").hide();
+  });
+
+  $(".nav-links")
+    .children()
+    .click(function () {
+      $(".mobile-sidebar").hide();
+    });
 });
-
-
-//hidenavba
-
-$(".close-icon").click(function(){
-    $(".mobile-sidebar").hide()
-})
-
-$('.nav-links').children().click(function(){
-    $(".mobile-sidebar").hide()
-})
-
-
-})

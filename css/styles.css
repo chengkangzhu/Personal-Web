@@ -3,11 +3,14 @@ html {
   box-sizing: border-box;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: inherit;
 }
 
-body, body * {
+body,
+body * {
   font-family: "Teko", sans-serif;
   line-height: 1.2;
   margin: 0;
@@ -16,13 +19,13 @@ body, body * {
 }
 
 #body {
-  background-color: #131A37;
+  background-color: #131a37;
 }
 
 #header {
   width: 100%;
   height: 64px;
-  background-color: #819CE3;
+  background-color: #819ce3;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -98,15 +101,19 @@ body, body * {
 }
 #hero .hero__info h1 {
   font-size: calc(3rem + 2vw);
-  background: linear-gradient(180deg, rgb(46, 181, 193) 0%, rgb(129, 156, 227) 100%);
+  background: linear-gradient(
+    180deg,
+    rgb(46, 181, 193) 0%,
+    rgb(129, 156, 227) 100%
+  );
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 #hero .hero__info p {
   font-size: 3rem;
   font-weight: 300;
-  color: #819CE3;
+  color: #819ce3;
   margin-bottom: 50px;
 }
 #hero .hero__info .hero-btns {
@@ -118,19 +125,23 @@ body, body * {
   font-size: 2.6rem;
   padding: 15px 40px;
   border-radius: 100px;
-  background-color: #3F3D56;
+  background-color: #3f3d56;
   display: inline-block;
   text-transform: capitalize;
   text-decoration: none;
   color: white;
 }
 #hero .hero__info .hero-btns a:first-of-type {
-  background-color: #6C63FF;
+  background-color: #6c63ff;
 }
 
 #about {
   width: 100%;
-  background: linear-gradient(333deg, rgb(48, 23, 107) 0%, rgb(46, 187, 195) 100%);
+  background: linear-gradient(
+    333deg,
+    rgb(48, 23, 107) 0%,
+    rgb(46, 187, 195) 100%
+  );
   min-height: 100vh;
 }
 #about .about__wrapper {
@@ -143,7 +154,7 @@ body, body * {
   color: white;
   max-width: 1400px;
   -moz-column-gap: 50px;
-       column-gap: 50px;
+  column-gap: 50px;
 }
 #about .about__wrapper .about__info-text {
   margin-top: 50px;
@@ -153,7 +164,7 @@ body, body * {
   display: block;
   font-weight: 400;
   font-size: 2.6rem;
-  color: #3F3D56;
+  color: #3f3d56;
   text-transform: capitalize;
 }
 #about .about__wrapper .about__info-text h1 {
@@ -189,36 +200,69 @@ body, body * {
   font-size: 1.6rem;
   text-transform: capitalize;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__big-bar {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__big-bar {
   background-color: rgb(0, 255, 191);
   display: block;
   border-radius: 20px;
   width: 100%;
   height: 4px;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__small-bar {
   background-color: white;
   width: 50%;
   height: 4px;
   border-radius: 50px;
   display: flex;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--html {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__small-bar--html {
   width: 90%;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--css {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__small-bar--css {
   width: 70%;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--javascript {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__small-bar--javascript {
   width: 50%;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--scss {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__small-bar--scss {
   width: 30%;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--jquery {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__small-bar--jquery {
   width: 10%;
 }
-#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar p {
+#about
+  .about__wrapper
+  .about__info-others
+  .about__progress-bar
+  .progress-bar__small-bar
+  p {
   font-size: 1.6rem;
   position: relative;
   top: 5px;
@@ -236,14 +280,18 @@ body, body * {
   font-size: 1.8rem;
   padding: 15px 40px;
   border-radius: 100px;
-  background-color: #758DD5;
+  background-color: #758dd5;
   display: inline-block;
   text-transform: capitalize;
   text-decoration: none;
   color: white;
 }
-#about .about__wrapper .about__info-others .about__btn-wrapper .about__btn:first-of-type {
-  background-color: #12254F;
+#about
+  .about__wrapper
+  .about__info-others
+  .about__btn-wrapper
+  .about__btn:first-of-type {
+  background-color: #12254f;
   padding: 15px 50px;
 }
 
@@ -292,14 +340,14 @@ body, body * {
   padding: 10px 5vw;
   border: 2px solid rgb(255, 255, 255);
   color: white;
-  background-color: #3F3D56;
+  background-color: #3f3d56;
 }
 
 #services {
   width: 100%;
   min-height: 100vh;
   color: white;
-  background-color: #32445F;
+  background-color: #32445f;
 }
 #services h1 {
   font-size: calc(3rem + 2vw);
@@ -338,7 +386,7 @@ body, body * {
 }
 
 #contact {
-  background-color: #72A0DD;
+  background-color: #72a0dd;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -382,7 +430,8 @@ body, body * {
 #contact .contact-wrapper .message form {
   display: block;
 }
-#contact .contact-wrapper .message form input, #contact .contact-wrapper .message form textarea {
+#contact .contact-wrapper .message form input,
+#contact .contact-wrapper .message form textarea {
   display: block;
   width: 100%;
   margin-bottom: 30px;
@@ -393,11 +442,12 @@ body, body * {
   border: 0px solid black;
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
 }
-#contact .contact-wrapper .message form input:focus, #contact .contact-wrapper .message form textarea:focus {
+#contact .contact-wrapper .message form input:focus,
+#contact .contact-wrapper .message form textarea:focus {
   outline: none;
 }
-#contact .contact-wrapper .message form input[type=submit] {
-  background-color: #6C63FF;
+#contact .contact-wrapper .message form input[type="submit"] {
+  background-color: #6c63ff;
   padding: 10px;
   font-size: 2.8rem;
   font-weight: 300;
@@ -406,7 +456,7 @@ body, body * {
 #contact .contact-wrapper .contact {
   width: 350px;
   height: 800px;
-  background-color: #6C63FF;
+  background-color: #6c63ff;
   border-radius: 20px;
   padding: 30px;
   color: white;
@@ -431,7 +481,7 @@ body, body * {
 #contact .bg-small-circle {
   width: 500px;
   height: 500px;
-  background-color: #73AFFF;
+  background-color: #73afff;
   border-radius: 50%;
   position: absolute;
   top: 13vh;
@@ -443,7 +493,7 @@ body, body * {
 #contact .bg-big-circle {
   width: 700px;
   height: 700px;
-  background-color: #2EB5C1;
+  background-color: #2eb5c1;
   border-radius: 50%;
   position: absolute;
   bottom: -20vh;
@@ -458,7 +508,7 @@ body, body * {
   justify-content: space-around;
   align-items: center;
   color: white;
-  background-color: #758DD5;
+  background-color: #758dd5;
   font-size: 2rem;
   flex-wrap: wrap;
   position: relative;
@@ -500,7 +550,7 @@ body, body * {
     font-size: 2rem;
   }
   #hero .hero__info .hero-btns a:first-of-type {
-    background-color: #6C63FF;
+    background-color: #6c63ff;
   }
 }
 @media (max-width: 767px) {
@@ -512,7 +562,7 @@ body, body * {
     top: 0;
     width: 300px;
     height: 100vh;
-    background-color: #12254F;
+    background-color: #12254f;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -533,7 +583,7 @@ body, body * {
     display: block;
     margin: 40px 0 30px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   #header .logo-wrapper {
     width: 100%;
@@ -552,7 +602,7 @@ body, body * {
     content: "";
     width: 260px;
     height: 2px;
-    background: #6C63FF;
+    background: #6c63ff;
     opacity: 0.2;
     position: absolute;
     top: 240px;
@@ -609,4 +659,4 @@ body, body * {
   #projects .project-wrapper .project__text-wrapper a {
     padding: 10px 60px;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */

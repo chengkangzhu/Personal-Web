@@ -101,13 +101,9 @@ body * {
 }
 #hero .hero__info h1 {
   font-size: calc(3rem + 2vw);
-  background: linear-gradient(
-    180deg,
-    rgb(46, 181, 193) 0%,
-    rgb(129, 156, 227) 100%
-  );
+  background: linear-gradient(180deg, rgb(46, 181, 193) 0%, rgb(129, 156, 227) 100%);
   -webkit-background-clip: text;
-  background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 #hero .hero__info p {
@@ -137,11 +133,7 @@ body * {
 
 #about {
   width: 100%;
-  background: linear-gradient(
-    333deg,
-    rgb(48, 23, 107) 0%,
-    rgb(46, 187, 195) 100%
-  );
+  background: linear-gradient(333deg, rgb(48, 23, 107) 0%, rgb(46, 187, 195) 100%);
   min-height: 100vh;
 }
 #about .about__wrapper {
@@ -154,7 +146,7 @@ body * {
   color: white;
   max-width: 1400px;
   -moz-column-gap: 50px;
-  column-gap: 50px;
+       column-gap: 50px;
 }
 #about .about__wrapper .about__info-text {
   margin-top: 50px;
@@ -200,69 +192,36 @@ body * {
   font-size: 1.6rem;
   text-transform: capitalize;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__big-bar {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__big-bar {
   background-color: rgb(0, 255, 191);
   display: block;
   border-radius: 20px;
   width: 100%;
   height: 4px;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__small-bar {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar {
   background-color: white;
   width: 50%;
   height: 4px;
   border-radius: 50px;
   display: flex;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__small-bar--html {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--html {
   width: 90%;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__small-bar--css {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--css {
   width: 70%;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__small-bar--javascript {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--javascript {
   width: 50%;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__small-bar--scss {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--scss {
   width: 30%;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__small-bar--jquery {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar--jquery {
   width: 10%;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__progress-bar
-  .progress-bar__small-bar
-  p {
+#about .about__wrapper .about__info-others .about__progress-bar .progress-bar__small-bar p {
   font-size: 1.6rem;
   position: relative;
   top: 5px;
@@ -286,11 +245,7 @@ body * {
   text-decoration: none;
   color: white;
 }
-#about
-  .about__wrapper
-  .about__info-others
-  .about__btn-wrapper
-  .about__btn:first-of-type {
+#about .about__wrapper .about__info-others .about__btn-wrapper .about__btn:first-of-type {
   background-color: #12254f;
   padding: 15px 50px;
 }
@@ -446,7 +401,7 @@ body * {
 #contact .contact-wrapper .message form textarea:focus {
   outline: none;
 }
-#contact .contact-wrapper .message form input[type="submit"] {
+#contact .contact-wrapper .message form input[type=submit] {
   background-color: #6c63ff;
   padding: 10px;
   font-size: 2.8rem;
@@ -583,7 +538,7 @@ body * {
     display: block;
     margin: 40px 0 30px;
     -o-object-fit: cover;
-    object-fit: cover;
+       object-fit: cover;
   }
   #header .logo-wrapper {
     width: 100%;
@@ -659,4 +614,4 @@ body * {
   #projects .project-wrapper .project__text-wrapper a {
     padding: 10px 60px;
   }
-} /*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
